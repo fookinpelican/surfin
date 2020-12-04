@@ -23,9 +23,10 @@
               "src/favicon.ico",
               "src/assets"
             ],
-
-              "styles": ["src/styles.css", "node_modules/bulma/css/bulma.css"],
-            
+            "styles": [
+              "src/styles.css",
+              "node_modules/bulma/css/bulma.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -120,5 +121,8 @@
       }
     }
   },
-  "defaultProject": "surfin"
+  "defaultProject": "surfin",
+  "cli": {
+    "analytics": "b2ee6696-2e7b-4d0e-b99d-e5a91e7929dd"
+  }
 }
