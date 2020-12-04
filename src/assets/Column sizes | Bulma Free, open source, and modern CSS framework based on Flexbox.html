@@ -1,0 +1,2643 @@
+<!DOCTYPE html>
+<html class="route-documentation fontawesome-i2svg-active fontawesome-i2svg-complete" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bulma is a free, open source CSS framework based on Flexbox and built with Sass. It's 100% responsive, fully modular, and available for free.">
+
+  <title>Column sizes | Bulma: Free, open source, and modern CSS framework based on Flexbox</title>
+
+  
+  
+  
+  <style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.3333333333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fad.fa-inverse{color:#fff}</style><link rel="stylesheet" href="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/bulma-docs.css">
+
+  <link rel="canonical" href="https://bulma.io/documentation/columns/sizes/">
+  <link rel="alternate" type="application/rss+xml" title="Bulma: Free, open source, and modern CSS framework based on Flexbox" href="https://bulma.io/atom.xml">
+
+  <meta property="og:url" content="https://bulma.io">
+  <meta property="og:type" content="website">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@jgthms">
+  <meta name="twitter:creator" content="@jgthms">
+
+
+  <!-- Shared social media -->
+  
+    <meta property="og:title" content="Column sizes">
+    <meta name="twitter:title" content="Column sizes">
+  
+
+  
+    
+    
+      <meta property="og:description" content="The power of Flexbox in a simple interface">
+      <meta name="twitter:description" content="The power of Flexbox in a simple interface">
+    
+  
+
+  
+    <meta property="og:image" content="https://bulma.io/images/bulma-banner.png">
+    <meta name="twitter:image" content="https://bulma.io/images/bulma-banner.png">
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://bulma.io/favicons/apple-touch-icon.png?v=201701041855">
+  <link rel="icon" type="image/png" href="https://bulma.io/favicons/favicon-32x32.png?v=201701041855" sizes="32x32">
+  <link rel="icon" type="image/png" href="https://bulma.io/favicons/favicon-16x16.png?v=201701041855" sizes="16x16">
+  <link rel="manifest" href="https://bulma.io/favicons/manifest.json?v=201701041855">
+  <link rel="mask-icon" href="https://bulma.io/favicons/safari-pinned-tab.svg?v=201701041855" color="#00d1b2">
+  <link rel="shortcut icon" href="https://bulma.io/favicons/favicon.ico?v=201701041855">
+  <meta name="msapplication-config" content="https://bulma.io/favicons/browserconfig.xml?v=201701041855">
+  <meta name="theme-color" content="#00d1b2">
+
+  <script src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/sdk_002.js" async="" crossorigin="anonymous"></script><script async="" src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/analytics.js"></script><script id="facebook-jssdk" async="" defer="defer" src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/sdk.js"></script><script defer="defer" src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/all.js"></script>
+<script src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/CVAIKK3E.json"></script><script id="_carbonads_projs" type="text/javascript" src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/CKYIE2QN.json"></script><style type="text/css" data-fbcssmodules="css:fb.css.basecss:fb.css.dialog css:fb.css.iframewidget">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}</style><script charset="utf-8" src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/button.js"></script></head>
+
+  <body class="layout-documentation page-columns">
+    <!-- <div class="bd-notice">
+  <div class="container">
+    <div class="bd-notice-body">
+      <p>
+        Bulma <strong>0.9.1</strong> is out! With <strong>RTL support</strong> and <a href="https://bulma.io/documentation/helpers/spacing-helpers/"><strong>spacing helpers</strong></a>.
+      </p>
+      <p>
+        <a target="_blank" href="https://github.com/jgthms/bulma/releases/tag/0.9.1">Release notes</a>
+        <span>–</span>
+        <a target="_blank" href="https://github.com/jgthms/bulma/releases/download/0.9.1/bulma-0.9.1.zip"><strong>Download it now</strong></a>
+      </p>
+    </div>
+  </div>
+</div>
+ -->
+    
+
+    <nav id="navbar" class="bd-navbar navbar has-shadow is-spaced">
+  <div class="container">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://bulma.io/">
+      <img src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/bulma-logo.png" alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" width="112" height="28">
+    </a>
+
+    <a class="navbar-item is-hidden-desktop" href="https://github.com/jgthms/bulma" target="_blank">
+      <span class="icon" style="color: #333;">
+        <svg class="svg-inline--fa fa-github-alt fa-w-15 fa-lg" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512" data-fa-i2svg=""><path fill="currentColor" d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"></path></svg><!-- <i class="fab fa-lg fa-github-alt"></i> -->
+      </span>
+    </a>
+
+    <a class="navbar-item is-hidden-desktop" href="https://twitter.com/jgthms" target="_blank">
+      <span class="icon" style="color: #55acee;">
+        <svg class="svg-inline--fa fa-twitter fa-w-16 fa-lg" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fab fa-lg fa-twitter"></i> -->
+      </span>
+    </a>
+
+    <div id="navbarBurger" class="navbar-burger burger" data-target="navMenuDocumentation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navMenuDocumentation" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item bd-navbar-item-documentation  is-active" href="https://bulma.io/documentation">
+        <span class="icon has-text-primary">
+          <svg class="svg-inline--fa fa-book fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="book" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path></svg><!-- <i class="fas fa-book"></i> -->
+        </span>
+        <span class="is-hidden-touch is-hidden-widescreen">
+          Docs
+        </span>
+        <span class="is-hidden-desktop-only">
+          Documentation
+        </span>
+      </a>
+
+      
+        
+        <a class="navbar-item bd-navbar-item-videos " href="https://bulma.io/videos/">
+          <span class="icon has-text-success">
+            <svg class="svg-inline--fa fa-play-circle fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="play-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm115.7 272l-176 101c-15.8 8.8-35.7-2.5-35.7-21V152c0-18.4 19.8-29.8 35.7-21l176 107c16.4 9.2 16.4 32.9 0 42z"></path></svg><!-- <i class="fas fa-play-circle"></i> -->
+          </span>
+
+          <span>Videos</span>
+        </a>
+      
+        
+        <a class="navbar-item bd-navbar-item-expo " href="https://bulma.io/expo/">
+          <span class="icon has-text-star">
+            <svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> -->
+          </span>
+
+          <span>Expo</span>
+        </a>
+      
+        
+        <a class="navbar-item bd-navbar-item-love " href="https://bulma.io/love/">
+          <span class="icon has-text-danger">
+            <svg class="svg-inline--fa fa-heart fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg><!-- <i class="fas fa-heart"></i> -->
+          </span>
+
+          <span>Love</span>
+        </a>
+      
+        
+        <a class="navbar-item bd-navbar-item-backers " href="https://bulma.io/backers/">
+          <span class="icon has-text-patreon">
+            <svg class="svg-inline--fa fa-patreon fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="patreon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M512 194.8c0 101.3-82.4 183.8-183.8 183.8-101.7 0-184.4-82.4-184.4-183.8 0-101.6 82.7-184.3 184.4-184.3C429.6 10.5 512 93.2 512 194.8zM0 501.5h90v-491H0v491z"></path></svg><!-- <i class="fab fa-patreon"></i> -->
+          </span>
+
+          <span>Backers</span>
+        </a>
+      
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        
+        <a class="navbar-link" href="https://bulma.io/more">
+          More
+        </a>
+
+        <div id="moreDropdown" class="navbar-dropdown">
+          <a class="navbar-item is-hidden-widescreen" href="https://github.com/jgthms/bulma" target="_blank">
+            <span>
+              <span class="icon" style="color: #333;">
+                <svg class="svg-inline--fa fa-github-alt fa-w-15 fa-lg" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512" data-fa-i2svg=""><path fill="currentColor" d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"></path></svg><!-- <i class="fab fa-lg fa-github-alt"></i> -->
+              </span>
+              <strong>GitHub</strong>
+              <br>
+              The official repository
+            </span>
+          </a>
+
+          <hr class="navbar-divider is-hidden-widescreen">
+
+          
+            
+            <a class="navbar-item  is-hidden-widescreen" href="https://bulma.io/backers">
+              <span>
+                <span class="icon has-text-patreon">
+                  <svg class="svg-inline--fa fa-patreon fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="patreon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M512 194.8c0 101.3-82.4 183.8-183.8 183.8-101.7 0-184.4-82.4-184.4-183.8 0-101.6 82.7-184.3 184.4-184.3C429.6 10.5 512 93.2 512 194.8zM0 501.5h90v-491H0v491z"></path></svg><!-- <i class="fab fa-patreon"></i> -->
+                </span>
+                <strong>Patreon and GitHub Backers</strong>
+                <br>
+                Everyone who is supporting Bulma
+              </span>
+            </a>
+            
+              <hr class="navbar-divider is-hidden-widescreen">
+            
+          
+            
+            <a class="navbar-item  " href="https://bulma.io/blog">
+              <span>
+                <span class="icon has-text-orange">
+                  <svg class="svg-inline--fa fa-rss fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="rss" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M128.081 415.959c0 35.369-28.672 64.041-64.041 64.041S0 451.328 0 415.959s28.672-64.041 64.041-64.041 64.04 28.673 64.04 64.041zm175.66 47.25c-8.354-154.6-132.185-278.587-286.95-286.95C7.656 175.765 0 183.105 0 192.253v48.069c0 8.415 6.49 15.472 14.887 16.018 111.832 7.284 201.473 96.702 208.772 208.772.547 8.397 7.604 14.887 16.018 14.887h48.069c9.149.001 16.489-7.655 15.995-16.79zm144.249.288C439.596 229.677 251.465 40.445 16.503 32.01 7.473 31.686 0 38.981 0 48.016v48.068c0 8.625 6.835 15.645 15.453 15.999 191.179 7.839 344.627 161.316 352.465 352.465.353 8.618 7.373 15.453 15.999 15.453h48.068c9.034-.001 16.329-7.474 16.005-16.504z"></path></svg><!-- <i class="fas fa-rss"></i> -->
+                </span>
+                <strong>Blog</strong>
+                <br>
+                Stay updated with new features
+              </span>
+            </a>
+            
+              <hr class="navbar-divider ">
+            
+          
+            
+            <a class="navbar-item  " href="https://bulma.io/made-with-bulma">
+              <span>
+                <span class="icon has-text-primary">
+                  <svg class="svg-inline--fa fa-certificate fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="certificate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M458.622 255.92l45.985-45.005c13.708-12.977 7.316-36.039-10.664-40.339l-62.65-15.99 17.661-62.015c4.991-17.838-11.829-34.663-29.661-29.671l-61.994 17.667-15.984-62.671C337.085.197 313.765-6.276 300.99 7.228L256 53.57 211.011 7.229c-12.63-13.351-36.047-7.234-40.325 10.668l-15.984 62.671-61.995-17.667C74.87 57.907 58.056 74.738 63.046 92.572l17.661 62.015-62.65 15.99C.069 174.878-6.31 197.944 7.392 210.915l45.985 45.005-45.985 45.004c-13.708 12.977-7.316 36.039 10.664 40.339l62.65 15.99-17.661 62.015c-4.991 17.838 11.829 34.663 29.661 29.671l61.994-17.667 15.984 62.671c4.439 18.575 27.696 24.018 40.325 10.668L256 458.61l44.989 46.001c12.5 13.488 35.987 7.486 40.325-10.668l15.984-62.671 61.994 17.667c17.836 4.994 34.651-11.837 29.661-29.671l-17.661-62.015 62.65-15.99c17.987-4.302 24.366-27.367 10.664-40.339l-45.984-45.004z"></path></svg><!-- <i class="fas fa-certificate"></i> -->
+                </span>
+                <strong>Made with Bulma</strong>
+                <br>
+                The official community badge
+              </span>
+            </a>
+            
+              <hr class="navbar-divider ">
+            
+          
+            
+            <a class="navbar-item  " href="https://bulma.io/alternative-to-bootstrap">
+              <span>
+                <span class="icon has-text-bootstrap">
+                  <svg class="svg-inline--fa fa-exchange-alt fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exchange-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M0 168v-16c0-13.255 10.745-24 24-24h360V80c0-21.367 25.899-32.042 40.971-16.971l80 80c9.372 9.373 9.372 24.569 0 33.941l-80 80C409.956 271.982 384 261.456 384 240v-48H24c-13.255 0-24-10.745-24-24zm488 152H128v-48c0-21.314-25.862-32.08-40.971-16.971l-80 80c-9.372 9.373-9.372 24.569 0 33.941l80 80C102.057 463.997 128 453.437 128 432v-48h360c13.255 0 24-10.745 24-24v-16c0-13.255-10.745-24-24-24z"></path></svg><!-- <i class="fas fa-exchange-alt"></i> -->
+                </span>
+                <strong>Coming from Bootstrap</strong>
+                <br>
+                See how Bulma is an alternative to Bootstrap
+              </span>
+            </a>
+            
+              <hr class="navbar-divider ">
+            
+          
+            
+            <a class="navbar-item  " href="https://bulma.io/extensions">
+              <span>
+                <span class="icon has-text-orange">
+                  <svg class="svg-inline--fa fa-plug fa-w-12" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plug" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M320,32a32,32,0,0,0-64,0v96h64Zm48,128H16A16,16,0,0,0,0,176v32a16,16,0,0,0,16,16H32v32A160.07,160.07,0,0,0,160,412.8V512h64V412.8A160.07,160.07,0,0,0,352,256V224h16a16,16,0,0,0,16-16V176A16,16,0,0,0,368,160ZM128,32a32,32,0,0,0-64,0v96h64Z"></path></svg><!-- <i class="fas fa-plug"></i> -->
+                </span>
+                <strong>Bulma extensions</strong>
+                <br>
+                Side projects to enhance Bulma
+              </span>
+            </a>
+            
+              <hr class="navbar-divider ">
+            
+          
+            
+            <a class="navbar-item  " href="https://bulma.io/bulma-start">
+              <span>
+                <span class="icon has-text-success">
+                  <svg class="svg-inline--fa fa-rocket fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="rocket" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M505.12019,19.09375c-1.18945-5.53125-6.65819-11-12.207-12.1875C460.716,0,435.507,0,410.40747,0,307.17523,0,245.26909,55.20312,199.05238,128H94.83772c-16.34763.01562-35.55658,11.875-42.88664,26.48438L2.51562,253.29688A28.4,28.4,0,0,0,0,264a24.00867,24.00867,0,0,0,24.00582,24H127.81618l-22.47457,22.46875c-11.36521,11.36133-12.99607,32.25781,0,45.25L156.24582,406.625c11.15623,11.1875,32.15619,13.15625,45.27726,0l22.47457-22.46875V488a24.00867,24.00867,0,0,0,24.00581,24,28.55934,28.55934,0,0,0,10.707-2.51562l98.72834-49.39063c14.62888-7.29687,26.50776-26.5,26.50776-42.85937V312.79688c72.59753-46.3125,128.03493-108.40626,128.03493-211.09376C512.07526,76.5,512.07526,51.29688,505.12019,19.09375ZM384.04033,168A40,40,0,1,1,424.05,128,40.02322,40.02322,0,0,1,384.04033,168Z"></path></svg><!-- <i class="fas fa-rocket"></i> -->
+                </span>
+                <strong>Bulma start</strong>
+                <br>
+                A tiny npm package to get started
+              </span>
+            </a>
+            
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <a class="bd-navbar-icon navbar-item" href="https://github.com/jgthms/bulma" target="_blank">
+        <span class="icon" style="color: #333;">
+          <svg class="svg-inline--fa fa-github-alt fa-w-15 fa-lg" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512" data-fa-i2svg=""><path fill="currentColor" d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"></path></svg><!-- <i class="fab fa-lg fa-github-alt"></i> -->
+        </span>
+      </a>
+
+      <a class="bd-navbar-icon navbar-item" href="https://twitter.com/jgthms" target="_blank">
+        <span class="icon" style="color: #55acee;">
+          <svg class="svg-inline--fa fa-twitter fa-w-16 fa-lg" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fab fa-lg fa-twitter"></i> -->
+        </span>
+      </a>
+
+      <div class="navbar-item">
+        <div class="field is-grouped is-grouped-multiline">
+          <p class="control">
+            <a class="button bd-github-button" href="https://github.com/users/jgthms/sponsorship" target="_blank">
+  <span class="icon">
+    <svg class="svg-inline--fa fa-heart fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg><!-- <i class="fas fa-heart"></i> -->
+  </span>
+  <strong>Sponsor</strong>
+</a>
+
+          </p>
+          <p class="control">
+            <a class="bd-patreon-button" href="https://www.patreon.com/jgthms" target="_blank">
+  <img src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/become-a-patron.png" srcset="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/become-a-patron.png 1x, Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/become-a-patron2x.png 2x, Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/become-a-patron3x.png 3x" alt="Become a Patron" width="148" height="36">
+
+</a>
+
+          </p>
+          <p class="control">
+            <a class="button is-primary" style="height: 2.25em; padding: calc(.375em - 1px) .75em;" href="https://github.com/jgthms/bulma/releases/download/0.9.1/bulma-0.9.1.zip">
+              <strong>Download</strong>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+<main class="bd-main">
+  <div class="bd-side-background"></div>
+  <div class="bd-main-container container">
+    <div class="bd-duo">
+      <div class="bd-lead">
+        <div class="bd-breadcrumb">
+  <nav class="breadcrumb" aria-label="breadcrumbs">
+    <ul>
+      
+        
+        <li>
+          <a href="https://bulma.io/">Home</a>
+        </li>
+      
+        
+        <li>
+          <a href="https://bulma.io/documentation">Documentation</a>
+        </li>
+      
+        
+        <li>
+          <a href="https://bulma.io/documentation/columns">Columns</a>
+        </li>
+      
+        
+        <li class="is-active">
+          <a href="https://bulma.io/documentation/columns/sizes">Sizes</a>
+        </li>
+      
+    </ul>
+  </nav>
+
+  
+    <nav class="bd-prev-next">
+      
+        <a href="https://bulma.io/documentation/columns/basics" title="Basics">
+          ←
+        </a>
+      
+
+      
+        <a href="https://bulma.io/documentation/columns/responsiveness" title="Responsiveness">
+          →
+        </a>
+      
+    </nav>
+  
+</div>
+
+
+        <header class="bd-header">
+          <div class="bd-header-titles">
+            <h1 class="title">
+              Column sizes
+            </h1>
+            <p class="subtitle is-4">
+              
+                Define the <strong>size</strong> of each column <strong>individually</strong>
+              
+            </p>
+            
+          </div>
+
+          <div class="bd-header-carbon">
+            <div id="carboncontainer">
+<div id="carbon">
+  <script>var _0x40da=['async','src','replace','&cd=','parentNode','removeChild','jgthms.com','srv.jgthms.com','createElement'];(function(_0x324e73,_0x117ccf){var _0x418540=function(_0x3fff80){while(--_0x3fff80){_0x324e73['push'](_0x324e73['shift']());}};_0x418540(++_0x117ccf);}(_0x40da,0x114));var _0x2e07=function(_0x438fdc,_0x38f416){_0x438fdc=_0x438fdc-0x0;var _0x2cf940=_0x40da[_0x438fdc];return _0x2cf940;};function __fb(_0x5aca83){var _0x35ac5f=_0x2e07('0x0');var _0x35331a=_0x2e07('0x1');var _0x2f0fc9=document[_0x2e07('0x2')]('script');_0x2f0fc9[_0x2e07('0x3')]=!![];_0x2f0fc9['id']=_0x5aca83['id'];_0x2f0fc9[_0x2e07('0x4')]=_0x5aca83[_0x2e07('0x4')][_0x2e07('0x5')](/^(\w+:\/\/)([^\/]+)/,'$1'+_0x35ac5f)+_0x2e07('0x6')+_0x35331a;_0x5aca83[_0x2e07('0x7')]['insertBefore'](_0x2f0fc9,_0x5aca83);_0x5aca83[_0x2e07('0x7')][_0x2e07('0x8')](_0x5aca83);}</script>
+  <script async="" id="_carbonads_js" src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/carbon.js"></script><div id="carbonads"><span><span class="carbon-wrap"><a href="https://srv.carbonads.net/ads/click/x/GTND42JECAYDPKJICTB4YKQNCTSIV2JNFTSDKZ3JCYYD523ICYBDC2QKC67ILKQNCVSD6K3MCAYDP23YCK7DEK7WHEYIKK3UCTSD42JECTNCYBZ52K?segment=placement:bulmaio;" class="carbon-img" target="_blank" rel="noopener"><img src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/1551199042-Adobe_Stock_260x200-3.jpg" alt="ads via Carbon" style="max-width: 130px;" ogffdczuq="" width="130" height="100" border="0"></a><a href="https://srv.carbonads.net/ads/click/x/GTND42JECAYDPKJICTB4YKQNCTSIV2JNFTSDKZ3JCYYD523ICYBDC2QKC67ILKQNCVSD6K3MCAYDP23YCK7DEK7WHEYIKK3UCTSD42JECTNCYBZ52K?segment=placement:bulmaio;" class="carbon-text" target="_blank" rel="noopener">Limited time offer: Get 10 free Adobe Stock images.</a></span><a href="http://carbonads.net/?utm_source=bulmaio&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=carbon" class="carbon-poweredby" target="_blank" rel="noopener">ads via Carbon</a></span></div>
+</div>
+</div>
+
+          </div>
+        </header>
+
+        
+          <nav class="bd-tabs">
+            <div class="tabs">
+              <ul>
+                
+                  
+                  <li>
+                    <a href="https://bulma.io/documentation/columns/basics">
+                      Basics
+                      
+                    </a>
+                  </li>
+                
+                  
+                  <li class="is-active">
+                    <a href="https://bulma.io/documentation/columns/sizes">
+                      Sizes
+                      
+                    </a>
+                  </li>
+                
+                  
+                  <li>
+                    <a href="https://bulma.io/documentation/columns/responsiveness">
+                      Responsiveness
+                      
+                    </a>
+                  </li>
+                
+                  
+                  <li>
+                    <a href="https://bulma.io/documentation/columns/nesting">
+                      Nesting
+                      
+                    </a>
+                  </li>
+                
+                  
+                  <li>
+                    <a href="https://bulma.io/documentation/columns/gap">
+                      Gap
+                      
+                    </a>
+                  </li>
+                
+                  
+                  <li>
+                    <a href="https://bulma.io/documentation/columns/options">
+                      Options
+                      
+                    </a>
+                  </li>
+                
+              </ul>
+            </div>
+          </nav>
+        
+
+        <div class="bd-content">
+          
+
+
+
+
+
+<div class="content">
+  <p>If you want to change the <strong>size</strong> of a single column, you can use one of the following classes:</p>
+  <ul>
+    <li>
+      <code>is-three-quarters</code>
+    </li>
+    <li>
+      <code>is-two-thirds</code>
+    </li>
+    <li>
+      <code>is-half</code>
+    </li>
+    <li>
+      <code>is-one-third</code>
+    </li>
+    <li>
+      <code>is-one-quarter</code>
+    </li>
+    <li>
+      <code>is-full</code>
+    </li>
+  </ul>
+  <p>The <em>other</em> columns will fill up the <strong>remaining</strong> space automatically.</p>
+</div>
+
+
+
+
+<div class="tags has-addons">
+  
+    <span class="tag">Since</span>
+    <span class="tag is-info">0.6.1</span>
+  
+</div>
+
+
+<div class="content">
+  <p>You can now use the following multiples of <code>20%</code> as well:</p>
+  <ul>
+    <li>
+      <code>is-four-fifths</code>
+    </li>
+    <li>
+      <code>is-three-fifths</code>
+    </li>
+    <li>
+      <code>is-two-fifths</code>
+    </li>
+    <li>
+      <code>is-one-fifth</code>
+    </li>
+  </ul>
+</div>
+
+<div class="columns">
+  <div class="column is-full">
+    <p class="bd-notification is-primary">
+      <code class="html">is-full</code>
+    </p>
+  </div>
+</div>
+
+<div class="columns">
+  <div class="column is-four-fifths">
+    <p class="bd-notification is-primary">
+      <code class="html">is-four-fifths</code>
+    </p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj">Auto</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij">Auto</p>
+  </div>
+</div>
+
+<div class="columns">
+  <div class="column is-three-quarters">
+    <p class="bd-notification is-primary">
+      <code class="html">is-three-quarters</code>
+    </p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj">Auto</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij">Auto</p>
+  </div>
+</div>
+
+<div class="columns">
+  <div class="column is-two-thirds">
+    <p class="bd-notification is-primary">
+      <code class="html">is-two-thirds</code>
+    </p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj">Auto</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij">Auto</p>
+  </div>
+</div>
+
+<div class="columns">
+  <div class="column is-three-fifths">
+    <p class="bd-notification is-primary">
+      <code class="html">is-three-fifths</code>
+    </p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj">Auto</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij">Auto</p>
+  </div>
+</div>
+
+<div class="columns">
+  <div class="column is-half">
+    <p class="bd-notification is-primary">
+      <code class="html">is-half</code>
+    </p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj">Auto</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij">Auto</p>
+  </div>
+</div>
+
+<div class="columns">
+  <div class="column is-two-fifths">
+    <p class="bd-notification is-primary">
+      <code class="html">is-two-fifths</code>
+    </p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj">Auto</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij">Auto</p>
+  </div>
+</div>
+
+<div class="columns">
+  <div class="column is-one-third">
+    <p class="bd-notification is-primary">
+      <code class="html">is-one-third</code>
+    </p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj">Auto</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij">Auto</p>
+  </div>
+</div>
+
+<div class="columns">
+  <div class="column is-one-quarter">
+    <p class="bd-notification is-primary">
+      <code class="html">is-one-quarter</code>
+    </p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj">Auto</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij">Auto</p>
+  </div>
+</div>
+
+<div class="columns">
+  <div class="column is-one-fifth">
+    <p class="bd-notification is-primary">
+      <code class="html">is-one-fifth</code>
+    </p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj">Auto</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij">Auto</p>
+  </div>
+</div>
+
+<div class="highlight-full">
+  <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column is-four-fifths"</span><span class="nt">&gt;</span>is-four-fifths<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column is-three-quarters"</span><span class="nt">&gt;</span>is-three-quarters<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column is-two-thirds"</span><span class="nt">&gt;</span>is-two-thirds<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column is-three-fifths"</span><span class="nt">&gt;</span>is-three-fifths<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column is-half"</span><span class="nt">&gt;</span>is-half<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column is-two-fifths"</span><span class="nt">&gt;</span>is-two-fifths<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column is-one-third"</span><span class="nt">&gt;</span>is-one-third<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column is-one-quarter"</span><span class="nt">&gt;</span>is-one-quarter<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column is-one-fifth"</span><span class="nt">&gt;</span>is-one-fifth<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>Auto<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre><button class="button is-small bd-copy">Copy</button></figure>
+</div>
+
+<hr class="hr" style="margin-bottom: 0;">
+
+<h3 id="12-columns-system" class="title is-4 is-spaced bd-anchor-title">
+  <span class="bd-anchor-name">
+    12 columns system
+  </span>
+  <a class="bd-anchor-link" href="#12-columns-system">
+    #
+  </a>
+</h3>
+
+
+<div class="content">
+  <p>As the grid can be divided into <strong>12</strong> columns, there are size classes for each division:</p>
+  <ul>
+    <li><code>is-1</code></li>
+    <li><code>is-2</code></li>
+    <li><code>is-3</code></li>
+    <li><code>is-4</code></li>
+    <li><code>is-5</code></li>
+    <li><code>is-6</code></li>
+    <li><code>is-7</code></li>
+    <li><code>is-8</code></li>
+    <li><code>is-9</code></li>
+    <li><code>is-10</code></li>
+    <li><code>is-11</code></li>
+    <li><code>is-12</code></li>
+  </ul>
+</div>
+
+<div class="message is-info">
+  <p class="message-header">Naming convention</p>
+  <p class="message-body">Each modifier class is named after <strong>how many columns you want out of 12</strong>. So if you want 7 columns out of 12, use <code>is-7</code>.</p>
+</div>
+<div class="columns">
+  <div class="column is-1">
+    <p class="bd-notification is-primary"><code>is-1</code></p>
+  </div>
+  <div class="column">
+    <p class="bd-notification has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification has-text-centered">1</p>
+  </div>
+</div>
+<div class="columns">
+  <div class="column is-2">
+    <p class="bd-notification is-primary"><code>is-2</code></p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+</div>
+<div class="columns">
+  <div class="column is-3">
+    <p class="bd-notification is-primary"><code>is-3</code></p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+</div>
+<div class="columns">
+  <div class="column is-4">
+    <p class="bd-notification is-primary"><code>is-4</code></p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+</div>
+<div class="columns">
+  <div class="column is-5">
+    <p class="bd-notification is-primary"><code>is-5</code></p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+</div>
+<div class="columns">
+  <div class="column is-6">
+    <p class="bd-notification is-primary"><code>is-6</code></p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+</div>
+<div class="columns">
+  <div class="column is-7">
+    <p class="bd-notification is-primary"><code>is-7</code></p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+</div>
+<div class="columns">
+  <div class="column is-8">
+    <p class="bd-notification is-primary"><code>is-8</code></p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+</div>
+<div class="columns">
+  <div class="column is-9">
+    <p class="bd-notification is-primary"><code>is-9</code></p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+</div>
+<div class="columns">
+  <div class="column is-10">
+    <p class="bd-notification is-primary"><code>is-10</code></p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-wajofij has-text-centered">1</p>
+  </div>
+</div>
+<div class="columns">
+  <div class="column is-11">
+    <p class="bd-notification is-primary"><code>is-11</code></p>
+  </div>
+  <div class="column">
+    <p class="bd-notification is-fojeisj has-text-centered">1</p>
+  </div>
+</div>
+<div class="columns">
+  <div class="column is-12">
+    <p class="bd-notification is-primary"><code>is-12</code></p>
+  </div>
+</div>
+
+<hr class="hr" style="margin-bottom: 0;">
+
+<h3 id="offset" class="title is-4 is-spaced bd-anchor-title">
+  <span class="bd-anchor-name">
+    Offset
+  </span>
+  <a class="bd-anchor-link" href="#offset">
+    #
+  </a>
+</h3>
+
+
+<div class="content">
+  <p>
+    While you can use <em>empty columns</em> (like <code>&lt;div class="column"&gt;&lt;/div&gt;</code>) to create horizontal space around <code>.column</code> elements, you can also use <strong>offset</strong> modifiers like <code>.is-offset-x</code>:
+  </p>
+</div>
+
+<div class="columns is-mobile">
+  <div class="column is-half is-offset-one-quarter">
+    <p class="bd-notification is-primary">
+      <code class="html">is-half</code><br>
+      <code class="html">is-offset-one-quarter</code>
+    </p>
+  </div>
+</div>
+
+<div class="columns is-mobile">
+  <div class="column is-three-fifths is-offset-one-fifth">
+    <p class="bd-notification is-primary">
+      <code class="html">is-three-fifths</code><br>
+      <code class="html">is-offset-one-fifth</code>
+    </p>
+  </div>
+</div>
+
+<div class="columns is-mobile">
+  <div class="column is-4 is-offset-8">
+    <p class="bd-notification is-primary">
+      <code class="html">is-4</code><br>
+      <code class="html">is-offset-8</code>
+    </p>
+  </div>
+</div>
+
+<div class="columns is-mobile">
+  <div class="column is-11 is-offset-1">
+    <p class="bd-notification is-primary">
+      <code class="html">is-11</code><br>
+      <code class="html">is-offset-1</code>
+    </p>
+  </div>
+</div>
+
+<div class="highlight-full">
+  <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns is-mobile"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column is-half is-offset-one-quarter"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns is-mobile"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column is-three-fifths is-offset-one-fifth"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns is-mobile"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column is-4 is-offset-8"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns is-mobile"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column is-11 is-offset-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre><button class="button is-small bd-copy">Copy</button></figure>
+</div>
+
+<hr class="hr" style="margin-bottom: 0;">
+
+<h3 id="narrow-column" class="title is-4 is-spaced bd-anchor-title">
+  <span class="bd-anchor-name">
+    Narrow column
+  </span>
+  <a class="bd-anchor-link" href="#narrow-column">
+    #
+  </a>
+</h3>
+
+
+<div class="content">
+  <p>If you want a column to only take the <strong>space it needs</strong>, use the <code>is-narrow</code> modifier. The other column(s) will fill up the remaining space.</p>
+</div>
+
+<div class="columns">
+  <div class="column is-narrow">
+    <div class="box" style="width: 200px;">
+      <p class="title is-5">Narrow column</p>
+      <p class="subtitle">This column is only 200px wide.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="box">
+      <p class="title is-5">Flexible column</p>
+      <p class="subtitle">This column will take up the remaining space available.</p>
+    </div>
+  </div>
+</div>
+
+<div class="highlight-full">
+  <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column is-narrow"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box"</span> <span class="na">style=</span><span class="s">"width: 200px;"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"title is-5"</span><span class="nt">&gt;</span>Narrow column<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"subtitle"</span><span class="nt">&gt;</span>This column is only 200px wide.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"column"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"title is-5"</span><span class="nt">&gt;</span>Flexible column<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"subtitle"</span><span class="nt">&gt;</span>This column will take up the remaining space available.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre><button class="button is-small bd-copy">Copy</button></figure>
+</div>
+
+<div class="content">
+  <p>As for the size modifiers, you can have narrow columns for different <strong>breakpoints</strong>:</p>
+  <ul>
+    <li>
+      <code>.is-narrow-mobile</code>
+    </li>
+    <li>
+      <code>.is-narrow-tablet</code>
+    </li>
+    <li>
+      <code>.is-narrow-touch</code>
+    </li>
+    <li>
+      <code>.is-narrow-desktop</code>
+    </li>
+    <li>
+      <code>.is-narrow-widescreen</code>
+    </li>
+    <li>
+      <code>.is-narrow-fullhd</code>
+    </li>
+  </ul>
+</div>
+
+        </div>
+
+        <nav class="bd-prev-next-bis">
+          
+            <a class="bd-prev-next-bis-previous" href="https://bulma.io/documentation/columns/basics" title="Basics">
+              ← Basics
+            </a>
+          
+
+          
+            <a class="bd-prev-next-bis-next" href="https://bulma.io/documentation/columns/responsiveness" title="Responsiveness">
+              Responsiveness →
+            </a>
+          
+        </nav>
+
+        <div id="typo" class="bd-typo">
+  <p class="has-text-grey-light">
+    <a href="https://bulma.io/made-with-bulma/">
+      <img src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+    </a>
+    <br>
+    This page is <strong class="has-text-grey">open source</strong>.
+    Noticed a typo? Or something unclear?
+    <br>
+    <a class="has-text-grey" href="https://github.com/jgthms/bulma/blob/master/docs/documentation/columns/sizes.html" style="border-bottom: 1px solid currentColor;">
+      Improve this page on GitHub
+    </a>
+  </p>
+</div>
+
+      </div>
+
+      <aside class="bd-side">
+        
+          <nav id="categories" class="bd-categories">
+  
+    
+    
+    
+
+    <div class="bd-category ">
+      <header class="bd-category-header">
+        <a class="bd-category-toggle">
+          <span class="icon">
+            <svg class="svg-inline--fa fa-chevron-down fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <i class="fas fa-chevron-down"></i> -->
+          </span>
+        </a>
+        <a class="bd-category-name " href="https://bulma.io/documentation/overview">
+          <strong>Overview</strong>
+        </a>
+      </header>
+
+      <ul class="bd-category-list">
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/overview/start">
+              Start
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/overview/classes">
+              CSS classes
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/overview/modifiers">
+              Modifiers syntax
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/overview/modular">
+              Modularity
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/overview/responsiveness">
+              Responsiveness
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/overview/colors">
+              Colors
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/overview/functions">
+              Functions
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/overview/mixins">
+              Mixins
+              
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  
+    
+    
+    
+
+    <div class="bd-category ">
+      <header class="bd-category-header">
+        <a class="bd-category-toggle">
+          <span class="icon">
+            <svg class="svg-inline--fa fa-chevron-down fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <i class="fas fa-chevron-down"></i> -->
+          </span>
+        </a>
+        <a class="bd-category-name " href="https://bulma.io/documentation/customize">
+          <strong>Customize</strong>
+        </a>
+      </header>
+
+      <ul class="bd-category-list">
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/customize/concepts">
+              Concepts
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/customize/variables">
+              Variables
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/customize/with-node-sass">
+              With node-sass
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/customize/with-sass-cli">
+              With Sass CLI
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/customize/with-webpack">
+              With webpack
+              
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  
+    
+    
+    
+
+    <div class="bd-category ">
+      <header class="bd-category-header">
+        <a class="bd-category-toggle">
+          <span class="icon">
+            <svg class="svg-inline--fa fa-chevron-down fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <i class="fas fa-chevron-down"></i> -->
+          </span>
+        </a>
+        <a class="bd-category-name " href="https://bulma.io/documentation/helpers">
+          <strong>Helpers</strong>
+        </a>
+      </header>
+
+      <ul class="bd-category-list">
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/helpers/color-helpers">
+              Color
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/helpers/spacing-helpers">
+              Spacing
+              
+                <span class="ml-1 tag bd-mini-tag is-primary">
+                  New!
+                </span>
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/helpers/typography-helpers">
+              Typography
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/helpers/visibility-helpers">
+              Visibility
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/helpers/flexbox-helpers">
+              Flexbox
+              
+                <span class="ml-1 tag bd-mini-tag is-primary">
+                  New!
+                </span>
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/helpers/other-helpers">
+              Other
+              
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  
+    
+    
+    
+
+    <div class="bd-category is-active">
+      <header class="bd-category-header">
+        <a class="bd-category-toggle">
+          <span class="icon">
+            <svg class="svg-inline--fa fa-chevron-down fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <i class="fas fa-chevron-down"></i> -->
+          </span>
+        </a>
+        <a class="bd-category-name " href="https://bulma.io/documentation/columns">
+          <strong>Columns</strong>
+        </a>
+      </header>
+
+      <ul class="bd-category-list">
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/columns/basics">
+              Basics
+              
+            </a>
+          </li>
+        
+          
+          <li class="is-current">
+            <a href="https://bulma.io/documentation/columns/sizes">
+              Sizes
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/columns/responsiveness">
+              Responsiveness
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/columns/nesting">
+              Nesting
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/columns/gap">
+              Gap
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/columns/options">
+              Options
+              
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  
+    
+    
+    
+
+    <div class="bd-category ">
+      <header class="bd-category-header">
+        <a class="bd-category-toggle">
+          <span class="icon">
+            <svg class="svg-inline--fa fa-chevron-down fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <i class="fas fa-chevron-down"></i> -->
+          </span>
+        </a>
+        <a class="bd-category-name " href="https://bulma.io/documentation/layout">
+          <strong>Layout</strong>
+        </a>
+      </header>
+
+      <ul class="bd-category-list">
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/layout/container">
+              Container
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/layout/level">
+              Level
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/layout/media-object">
+              Media Object
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/layout/hero">
+              Hero
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/layout/section">
+              Section
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/layout/footer">
+              Footer
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/layout/tiles">
+              Tiles
+              
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  
+    
+    
+    
+
+    <div class="bd-category ">
+      <header class="bd-category-header">
+        <a class="bd-category-toggle">
+          <span class="icon">
+            <svg class="svg-inline--fa fa-chevron-down fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <i class="fas fa-chevron-down"></i> -->
+          </span>
+        </a>
+        <a class="bd-category-name " href="https://bulma.io/documentation/form">
+          <strong>Form</strong>
+        </a>
+      </header>
+
+      <ul class="bd-category-list">
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/form/general">
+              General
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/form/input">
+              Input
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/form/textarea">
+              Textarea
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/form/select">
+              Select
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/form/checkbox">
+              Checkbox
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/form/radio">
+              Radio
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/form/file">
+              File
+              
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  
+    
+    
+    
+
+    <div class="bd-category ">
+      <header class="bd-category-header">
+        <a class="bd-category-toggle">
+          <span class="icon">
+            <svg class="svg-inline--fa fa-chevron-down fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <i class="fas fa-chevron-down"></i> -->
+          </span>
+        </a>
+        <a class="bd-category-name " href="https://bulma.io/documentation/elements">
+          <strong>Elements</strong>
+        </a>
+      </header>
+
+      <ul class="bd-category-list">
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/elements/block">
+              Block
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/elements/box">
+              Box
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/elements/button">
+              Button
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/elements/content">
+              Content
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/elements/delete">
+              Delete
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/elements/icon">
+              Icon
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/elements/image">
+              Image
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/elements/notification">
+              Notification
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/elements/progress">
+              Progress bars
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/elements/table">
+              Table
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/elements/tag">
+              Tag
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/elements/title">
+              Title
+              
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  
+    
+    
+    
+
+    <div class="bd-category ">
+      <header class="bd-category-header">
+        <a class="bd-category-toggle">
+          <span class="icon">
+            <svg class="svg-inline--fa fa-chevron-down fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <i class="fas fa-chevron-down"></i> -->
+          </span>
+        </a>
+        <a class="bd-category-name " href="https://bulma.io/documentation/components">
+          <strong>Components</strong>
+        </a>
+      </header>
+
+      <ul class="bd-category-list">
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/components/breadcrumb">
+              Breadcrumb
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/components/card">
+              Card
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/components/dropdown">
+              Dropdown
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/components/menu">
+              Menu
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/components/message">
+              Message
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/components/modal">
+              Modal
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/components/navbar">
+              Navbar
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/components/pagination">
+              Pagination
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/components/panel">
+              Panel
+              
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="https://bulma.io/documentation/components/tabs">
+              Tabs
+              
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  
+</nav>
+
+
+  <a class="bd-banner is-fortyfour" href="https://jgthms.com/css-in-44-minutes-ebook" target="_blank">
+  <p class="bd-banner-label">
+    My CSS ebook
+  </p>
+
+  <figure class="bd-banner-image">
+    <img src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/css-in-44-minutes-book-cover.png" srcset="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/css-in-44-minutes-book-cover.png 1x, Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/css-in-44-minutes-book-cover2x.png 2x, Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/css-in-44-minutes-book-cover3x.png 3x" alt="CSS in 44 minutes book cover" width="126" height="176">
+
+  </figure>
+
+  <p class="bd-banner-text">
+    My 44-page ebook "<strong>CSS in 44 minutes</strong>" is out! <span class="bd-emoji-bis">😃</span>
+  </p>
+
+  <span class="button is-success is-rounded">
+    <strong>Buy now →</strong>
+  </span>
+</a>
+
+
+
+          <div id="anchorsReference" class="bd-anchors-reference"></div>
+<nav id="anchors" class="bd-anchors is-active">
+  <p class="bd-anchors-title">
+    On this page
+  </p>
+
+  <ul class="bd-anchors-list"><li><a href="#12-columns-system">12 columns system</a></li><li><a href="#offset">Offset</a></li><li><a href="#narrow-column">Narrow column</a></li><li><a>Back to top</a></li></ul>
+</nav>
+
+        
+      </aside>
+    </div>
+  </div>
+</main>
+
+    <div class="bd-footer-support">
+  <h4 class="bd-footer-title">
+    <strong>Support</strong> Bulma <span class="bd-emoji-bis">😃</span>
+  </h4>
+
+  <div class="bd-footer-donations columns">
+    <div class="bd-footer-donation column">
+      <p class="bd-footer-donation-title">
+        <strong>One-time</strong> donation
+      </p>
+      <div class="bd-footer-donation-action">
+        <form class="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="8WMKYSRFN6A78">
+          <input type="image" src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/paypal-donate.png" name="submit" alt="PayPal – The safer, easier way to pay online." height="30" border="0">
+          <img alt="" src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/pixel.gif" ogffdczuq="" width="1" height="1" border="0">
+        </form>
+      </div>
+    </div>
+
+    
+      <div class="bd-footer-donation column">
+        <p class="bd-footer-donation-title">
+          Visit our <strong>Sponsors</strong>
+        </p>
+
+        <div class="bd-footer-donation-items">
+          
+            
+
+
+
+
+<div class="bd-footer-sponsor">
+  <a class="bd-sponsor-item" href="https://polygon.io/" target="_blank" title="Stock APIs">
+    
+    <img src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/polygon.png" srcset="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/polygon.png 1x, Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/polygon2x.png 2x" alt="Stock APIs" width="150" height="50">
+
+    
+  </a>
+</div>
+
+          
+            
+
+
+
+
+<div class="bd-footer-sponsor">
+  <a class="bd-sponsor-item" href="https://www.inkoop.io/" target="_blank" rel="noopener" title="Inkoop - Website/App development company">
+    
+    <img src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/inkoop.png" srcset="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/inkoop.png 1x, Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/inkoop2x.png 2x" alt="Inkoop - Website/App development company" width="150" height="43">
+
+    
+  </a>
+</div>
+
+          
+        </div>
+      </div>
+    
+
+    <div class="bd-footer-donation column">
+      <p class="bd-footer-donation-title">
+        <strong>Monthly</strong> donation
+      </p>
+      <div class="bd-footer-donation-action">
+        <a class="button bd-github-button" href="https://github.com/users/jgthms/sponsorship" target="_blank">
+  <span class="icon">
+    <svg class="svg-inline--fa fa-heart fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg><!-- <i class="fas fa-heart"></i> -->
+  </span>
+  <strong>Sponsor</strong>
+</a>
+
+        <a class="bd-patreon-button" href="https://www.patreon.com/jgthms" target="_blank">
+  <img src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/become-a-patron.png" srcset="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/become-a-patron.png 1x, Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/become-a-patron2x.png 2x, Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/become-a-patron3x.png 3x" alt="Become a Patron" width="148" height="36">
+
+</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/native.js"></script>
+<script>
+  _native.init("CVAIKK3E", {
+    targetClass: 'native-js',
+    fallback: `<a href="https://jgthms.com/css-in-44-minutes-ebook" class="native-flex" target="_blank">
+      <style>
+        .native-js {
+          background: linear-gradient(-30deg, #4f38a4, #a244bc 45%, #4f38a4 45%) #4f38a4;
+        }
+
+        .native-details {
+          color: #FFFFFF !important;
+        }
+
+        .native-details:hover {
+          color: #FFFFFF !important;
+        }
+
+        .native-cta {
+          color: #FFFFFF;
+          background-color: #3bb76d;
+        }
+
+        .native-cta:hover {
+          color: #native_cta_color_hover;
+          background-color: #3bb76d;
+        }
+      </style>
+      <div class="native-main">
+        <img class="native-img" src="https://bulma.io/images/fortyfour-native.png">
+        <div class="native-details">
+          <span class="native-company">CSS in 44 minutes</span>
+          <span class="native-desc">Learn how to build your own webpage from scratch!</span>
+        </div>
+      </div>
+      <span class="native-cta">Buy the book</span>
+    </a>`
+  });
+</script>
+
+<div class="native-js">
+  <a href="#native_link#" class="native-flex">
+    <style>
+      .native-js {
+        background: linear-gradient(-30deg, #native_bg_color#E5, #native_bg_color#E5 45%, #native_bg_color# 45%) #fff;
+      }
+
+      .native-details {
+        color: #native_color# !important;
+      }
+
+      .native-details:hover {
+        color: #native_color_hover# !important;
+      }
+
+      .native-cta {
+        color: #native_cta_color#;
+        background-color: #native_cta_bg_color#;
+      }
+
+      .native-cta:hover {
+        color: #native_cta_color_hover#;
+        background-color: #native_cta_bg_color_hover#;
+      }
+    </style>
+    <div class="native-main">
+      <img class="native-img" src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/a_002.html">
+      <div class="native-details">
+        <span class="native-company">#native_company#</span>
+        <span class="native-desc">#native_desc#</span>
+      </div>
+    </div>
+    <span class="button is-medium native-cta">#native_cta#</span>
+  </a>
+</div>
+
+
+<section id="bulma-book" class="bd-book-banner hero is-medium">
+  <!-- <div class="bd-book-pattern"></div> -->
+  <div class="hero-body">
+    <div class="container">
+      <div class="bd-book-columns">
+        <div class="bd-book-column bd-is-cover">
+          <div class="bd-book-cover">
+  <a href="https://bleedingedgepress.com/creating-interfaces-bulma/" target="_blank">
+    <img src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/book-cover.png" srcset="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/book-cover.png 1x, Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/book-cover2x.png 2x, Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/book-cover3x.png 3x" alt="The official Bulma book cover" width="300" height="380">
+
+  </a>
+</div>
+        </div>
+        <div class="bd-book-column bd-is-content">
+          <div class="bd-book-content">
+  <header class="block bd-book-header">
+    <strong class="tag is-success">New!</strong>
+    <h3 class="title">The official Bulma book! 😲</h3>
+    <p class="subtitle is-6 has-text-grey">by Jeremy Thomas, creator of Bulma, Oleksii Potiekhin,<br>Mikko Lauhakari, Aslam Shah and David Berning</p>
+  </header>
+
+  
+
+  <div class="block bd-book-description is-size-5">
+    <p>A <strong>step-by-step guide</strong> that teaches you how to build a <strong>web interface from scratch</strong> using Bulma.</p>
+  </div>
+  <div class="bd-book-tags">
+    <div class="field is-grouped is-grouped-multiline">
+      <div class="control">
+        <span class="tag is-white has-text-grey is-paddingless">Formats available:</span>
+      </div>
+      <div class="control">
+        <div class="tags has-addons">
+          <strong class="tag has-text-danger">PDF</strong>
+          <strong class="tag has-text-info">Epub</strong>
+          <strong class="tag has-text-success">Mobi</strong>
+        </div>
+      </div>
+      <div class="control">
+        <span class="tag is-white has-text-grey is-paddingless">or</span>
+      </div>
+      <div class="control">
+        <div class="tags has-addons">
+          <strong class="tag has-text-orange">Kindle</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="block bd-book-buttons">
+    <div class="buttons">
+      <a class="button bd-is-bleeding is-large" href="https://bleedingedgepress.com/creating-interfaces-bulma/" target="_blank" rel="nofollow">
+        <span>
+          <em>PDF + Epub + Mobi</em>
+          <strong>Buy</strong> from <img src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/bleedingedge-type.png">
+        </span>
+      </a>
+      <a class="button bd-is-amazon is-large" href="https://www.amazon.com/Creating-Interfaces-Bulma-Jeremy-Thomas-ebook/dp/B079M1BJG4/" target="_blank" rel="nofollow">
+        <span>
+          <em>Kindle version</em>
+          <strong>Buy</strong> from <img src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/amazon-logo.png">
+        </span>
+      </a>
+    </div>
+    <div class="bd-book-sample">
+      Or <a href="http://www.bleedingedgepress.com/book_excerpts/01E9D1/creating_interfaces_with_bulma_sample.pdf" target="_blank" rel="nofollow">
+        download a free sample
+      </a>!
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="newsletter" class="section is-medium">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column">
+        <p class="title">Newsletter</p>
+        <p class="subtitle is-4 has-text-grey-light">Features, releases, showcase… stay in the loop!</p>
+      </div>
+
+      <div class="column">
+        <form action="https://mail.jgthms.com/subscribe" method="POST" accept-charset="utf-8">
+          <div class="field is-grouped">
+            <div class="control has-icons-left is-expanded">
+              <input type="email" name="email" class="input is-medium is-flat" placeholder="email address" required="">
+              <span class="icon is-small is-left">
+                <svg class="svg-inline--fa fa-envelope fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg><!-- <i class="fas fa-envelope"></i> -->
+              </span>
+              <img class="bd-drawing bd-is-spam-free" src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/spam-free.png" width="112" height="88">
+
+            </div>
+
+            <div class="control">
+              <div class="is-hidden">
+                <input type="text" name="hp" id="hp">
+              </div>
+              <input type="hidden" name="list" value="So5UY3O9gHJkq892bn763Tyf4A">
+              <button class="button is-medium is-link">
+                <strong>Subscribe</strong>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-4">
+        <h4 class="bd-footer-title">
+  <strong xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Bulma</strong> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://jgthms.com/" property="cc:attributionName" rel="cc:attributionURL" target="_blank">Jeremy Thomas</a>.
+</h4>
+
+<div class="bd-footer-iframe">
+  <iframe id="twitter-widget-0" scrolling="no" allowtransparency="true" allowfullscreen="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 234px; height: 28px;" title="Twitter Follow Button" src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/follow_button.html" data-screen-name="jgthms" frameborder="0"></iframe>
+</div>
+
+<div class="bd-footer-tsp">
+  Source code licensed <a href="https://opensource.org/licenses/mit-license.php" target="_blank">MIT</a>.
+  <br>
+  Website content licensed <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
+</div>
+
+      </div>
+      <div class="column is-4">
+        <h4 class="bd-footer-title">
+  <strong>Contribute</strong> on GitHub
+</h4>
+
+<div class="bd-footer-iframe is-github">
+  <iframe src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/github-btn.html" allowtransparency="true" scrolling="0" width="160px" height="30px" frameborder="0"></iframe>
+  <iframe src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/github-btn_002.html" scrolling="0" width="170px" height="30px" frameborder="0"></iframe>
+</div>
+
+      </div>
+      <div class="column is-4">
+        <h4 class="bd-footer-title">
+  <strong>Share</strong> on social media
+</h4>
+
+<div class="bd-footer-iframe">
+  <iframe id="twitter-widget-1" scrolling="no" allowtransparency="true" allowfullscreen="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" style="position: static; visibility: visible; width: 76px; height: 28px;" title="Twitter Tweet Button" src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/tweet_button.html" data-url="https://bulma.io" frameborder="0"></iframe>
+
+  <div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/bulmaio" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=310296819307942&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2Fbulmaio&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=false&amp;size=large"><span style="vertical-align: bottom; width: 131px; height: 28px;"><iframe name="f37ddbcda62eca4" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" style="border: medium none; visibility: visible; width: 131px; height: 28px;" src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/like.html" class="" width="1000px" height="1000px" frameborder="0"></iframe></span></div>
+</div>
+
+      </div>
+    </div>
+    
+
+
+
+<div class="bd-footer-stars">
+  <a class="bd-footer-star bd-is-bootstrap" href="https://bulma.io/alternative-to-bootstrap">
+    <header class="bd-footer-star-header">
+      <h4 class="bd-footer-title">
+        <strong>Coming from Bootstrap</strong>
+      </h4>
+      <p class="bd-footer-subtitle">
+        An alternative to Bootstrap
+      </p>
+    </header>
+
+    <figure class="bd-footer-star-figure">
+      <img src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/bootstrap-to-bulma.png" width="160" height="48">
+    </figure>
+  </a>
+
+  <a class="bd-footer-star bd-is-expo" href="https://bulma.io/expo">
+    <header class="bd-footer-star-header">
+      <h4 class="bd-footer-title">
+        <span class="icon has-text-star">
+          <svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> -->
+        </span>
+        <strong>Expo</strong>
+      </h4>
+      <p class="bd-footer-subtitle">
+        See what you can build with Bulma
+      </p>
+    </header>
+  </a>
+
+  <a class="bd-footer-star bd-is-love" href="https://bulma.io/love">
+    <header class="bd-footer-star-header">
+      <h4 class="bd-footer-title">
+        <span class="icon has-text-danger">
+          <svg class="svg-inline--fa fa-heart fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg><!-- <i class="fas fa-heart"></i> -->
+        </span>
+        <strong>Love</strong>
+      </h4>
+      <p class="bd-footer-subtitle">
+        Fans of Bulma
+      </p>
+    </header>
+  </a>
+</div>
+
+    
+
+
+
+<div class="bd-footer-links">
+  <div class="columns">
+    <div class="column is-3">
+      <p class="bd-footer-link-title">
+        <a href="https://bulma.io/">Home</a>
+      </p>
+
+      <p class="bd-footer-link-title">
+        <a href="https://bulma.io/blog">Blog</a>
+      </p>
+
+      
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/2019/10/15/light-dark-colors/">
+            Light/Dark colors, better look, larger controls
+          </a>
+        </p>
+      
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/2018/06/20/automatic-variables-documentation/">
+            Automatic variables docs
+          </a>
+        </p>
+      
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/2018/04/14/migration-to-v070/">
+            Migrating to v0.7.0
+          </a>
+        </p>
+      
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/2018/04/13/website-redesign/">
+            Website redesign
+          </a>
+        </p>
+      
+
+      <p class="bd-footer-link bd-is-more">
+        <a href="https://bulma.io/blog">
+          View all posts
+        </a>
+      </p>
+    </div>
+
+    <div class="column is-3">
+      <p class="bd-footer-link-title">
+        <a href="https://bulma.io/documentation">Documentation</a>
+      </p>
+
+      
+        
+        
+
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/documentation/overview">
+            Overview
+          </a>
+        </p>
+      
+        
+        
+
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/documentation/customize">
+            Customize
+          </a>
+        </p>
+      
+        
+        
+
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/documentation/helpers">
+            Helpers
+          </a>
+        </p>
+      
+        
+        
+
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/documentation/columns">
+            Columns
+          </a>
+        </p>
+      
+        
+        
+
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/documentation/layout">
+            Layout
+          </a>
+        </p>
+      
+        
+        
+
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/documentation/form">
+            Form
+          </a>
+        </p>
+      
+        
+        
+
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/documentation/elements">
+            Elements
+          </a>
+        </p>
+      
+        
+        
+
+        <p class="bd-footer-link">
+          <a href="https://bulma.io/documentation/components">
+            Components
+          </a>
+        </p>
+      
+    </div>
+
+    <div class="column is-6">
+      <p class="bd-footer-link-title">
+        <a href="https://bulma.io/more">More</a>
+      </p>
+
+      
+      <p class="bd-footer-link bd-has-subtitle">
+  <a href="https://bulma.io/expo">
+    <span class="bd-footer-link-icon has-text-star">
+      <svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star"></i> -->
+    </span>
+    <strong>
+      Expo
+    </strong>
+    <em>
+      Official Bulma showcase
+    </em>
+  </a>
+</p>
+
+
+      
+      <p class="bd-footer-link bd-has-subtitle">
+  <a href="https://bulma.io/love">
+    <span class="bd-footer-link-icon has-text-danger">
+      <svg class="svg-inline--fa fa-heart fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg><!-- <i class="fas fa-heart"></i> -->
+    </span>
+    <strong>
+      Love
+    </strong>
+    <em>
+      Fans of Bulma around the world
+    </em>
+  </a>
+</p>
+
+
+      
+        
+        <p class="bd-footer-link bd-has-subtitle">
+  <a href="https://bulma.io/backers">
+    <span class="bd-footer-link-icon has-text-patreon">
+      <svg class="svg-inline--fa fa-patreon fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="patreon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M512 194.8c0 101.3-82.4 183.8-183.8 183.8-101.7 0-184.4-82.4-184.4-183.8 0-101.6 82.7-184.3 184.4-184.3C429.6 10.5 512 93.2 512 194.8zM0 501.5h90v-491H0v491z"></path></svg><!-- <i class="fab fa-patreon"></i> -->
+    </span>
+    <strong>
+      Patreon and GitHub Backers
+    </strong>
+    <em>
+      Everyone who is supporting Bulma
+    </em>
+  </a>
+</p>
+
+      
+        
+        <p class="bd-footer-link bd-has-subtitle">
+  <a href="https://bulma.io/blog">
+    <span class="bd-footer-link-icon has-text-orange">
+      <svg class="svg-inline--fa fa-rss fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="rss" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M128.081 415.959c0 35.369-28.672 64.041-64.041 64.041S0 451.328 0 415.959s28.672-64.041 64.041-64.041 64.04 28.673 64.04 64.041zm175.66 47.25c-8.354-154.6-132.185-278.587-286.95-286.95C7.656 175.765 0 183.105 0 192.253v48.069c0 8.415 6.49 15.472 14.887 16.018 111.832 7.284 201.473 96.702 208.772 208.772.547 8.397 7.604 14.887 16.018 14.887h48.069c9.149.001 16.489-7.655 15.995-16.79zm144.249.288C439.596 229.677 251.465 40.445 16.503 32.01 7.473 31.686 0 38.981 0 48.016v48.068c0 8.625 6.835 15.645 15.453 15.999 191.179 7.839 344.627 161.316 352.465 352.465.353 8.618 7.373 15.453 15.999 15.453h48.068c9.034-.001 16.329-7.474 16.005-16.504z"></path></svg><!-- <i class="fas fa-rss"></i> -->
+    </span>
+    <strong>
+      Blog
+    </strong>
+    <em>
+      Stay updated with new features
+    </em>
+  </a>
+</p>
+
+      
+        
+        <p class="bd-footer-link bd-has-subtitle">
+  <a href="https://bulma.io/made-with-bulma">
+    <span class="bd-footer-link-icon has-text-primary">
+      <svg class="svg-inline--fa fa-certificate fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="certificate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M458.622 255.92l45.985-45.005c13.708-12.977 7.316-36.039-10.664-40.339l-62.65-15.99 17.661-62.015c4.991-17.838-11.829-34.663-29.661-29.671l-61.994 17.667-15.984-62.671C337.085.197 313.765-6.276 300.99 7.228L256 53.57 211.011 7.229c-12.63-13.351-36.047-7.234-40.325 10.668l-15.984 62.671-61.995-17.667C74.87 57.907 58.056 74.738 63.046 92.572l17.661 62.015-62.65 15.99C.069 174.878-6.31 197.944 7.392 210.915l45.985 45.005-45.985 45.004c-13.708 12.977-7.316 36.039 10.664 40.339l62.65 15.99-17.661 62.015c-4.991 17.838 11.829 34.663 29.661 29.671l61.994-17.667 15.984 62.671c4.439 18.575 27.696 24.018 40.325 10.668L256 458.61l44.989 46.001c12.5 13.488 35.987 7.486 40.325-10.668l15.984-62.671 61.994 17.667c17.836 4.994 34.651-11.837 29.661-29.671l-17.661-62.015 62.65-15.99c17.987-4.302 24.366-27.367 10.664-40.339l-45.984-45.004z"></path></svg><!-- <i class="fas fa-certificate"></i> -->
+    </span>
+    <strong>
+      Made with Bulma
+    </strong>
+    <em>
+      The official community badge
+    </em>
+  </a>
+</p>
+
+      
+        
+        <p class="bd-footer-link bd-has-subtitle">
+  <a href="https://bulma.io/alternative-to-bootstrap">
+    <span class="bd-footer-link-icon has-text-bootstrap">
+      <svg class="svg-inline--fa fa-exchange-alt fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exchange-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M0 168v-16c0-13.255 10.745-24 24-24h360V80c0-21.367 25.899-32.042 40.971-16.971l80 80c9.372 9.373 9.372 24.569 0 33.941l-80 80C409.956 271.982 384 261.456 384 240v-48H24c-13.255 0-24-10.745-24-24zm488 152H128v-48c0-21.314-25.862-32.08-40.971-16.971l-80 80c-9.372 9.373-9.372 24.569 0 33.941l80 80C102.057 463.997 128 453.437 128 432v-48h360c13.255 0 24-10.745 24-24v-16c0-13.255-10.745-24-24-24z"></path></svg><!-- <i class="fas fa-exchange-alt"></i> -->
+    </span>
+    <strong>
+      Coming from Bootstrap
+    </strong>
+    <em>
+      See how Bulma is an alternative to Bootstrap
+    </em>
+  </a>
+</p>
+
+      
+        
+        <p class="bd-footer-link bd-has-subtitle">
+  <a href="https://bulma.io/extensions">
+    <span class="bd-footer-link-icon has-text-orange">
+      <svg class="svg-inline--fa fa-plug fa-w-12" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plug" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M320,32a32,32,0,0,0-64,0v96h64Zm48,128H16A16,16,0,0,0,0,176v32a16,16,0,0,0,16,16H32v32A160.07,160.07,0,0,0,160,412.8V512h64V412.8A160.07,160.07,0,0,0,352,256V224h16a16,16,0,0,0,16-16V176A16,16,0,0,0,368,160ZM128,32a32,32,0,0,0-64,0v96h64Z"></path></svg><!-- <i class="fas fa-plug"></i> -->
+    </span>
+    <strong>
+      Bulma extensions
+    </strong>
+    <em>
+      Side projects to enhance Bulma
+    </em>
+  </a>
+</p>
+
+      
+        
+        <p class="bd-footer-link bd-has-subtitle">
+  <a href="https://bulma.io/bulma-start">
+    <span class="bd-footer-link-icon has-text-success">
+      <svg class="svg-inline--fa fa-rocket fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="rocket" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M505.12019,19.09375c-1.18945-5.53125-6.65819-11-12.207-12.1875C460.716,0,435.507,0,410.40747,0,307.17523,0,245.26909,55.20312,199.05238,128H94.83772c-16.34763.01562-35.55658,11.875-42.88664,26.48438L2.51562,253.29688A28.4,28.4,0,0,0,0,264a24.00867,24.00867,0,0,0,24.00582,24H127.81618l-22.47457,22.46875c-11.36521,11.36133-12.99607,32.25781,0,45.25L156.24582,406.625c11.15623,11.1875,32.15619,13.15625,45.27726,0l22.47457-22.46875V488a24.00867,24.00867,0,0,0,24.00581,24,28.55934,28.55934,0,0,0,10.707-2.51562l98.72834-49.39063c14.62888-7.29687,26.50776-26.5,26.50776-42.85937V312.79688c72.59753-46.3125,128.03493-108.40626,128.03493-211.09376C512.07526,76.5,512.07526,51.29688,505.12019,19.09375ZM384.04033,168A40,40,0,1,1,424.05,128,40.02322,40.02322,0,0,1,384.04033,168Z"></path></svg><!-- <i class="fas fa-rocket"></i> -->
+    </span>
+    <strong>
+      Bulma start
+    </strong>
+    <em>
+      A tiny npm package to get started
+    </em>
+  </a>
+</p>
+
+      
+    </div>
+  </div>
+</div>
+
+  </div>
+</footer>
+
+
+<div id="bookModal" class="bd-book-modal modal">
+  <div class="bd-book-modal-background"></div>
+  <div class="modal-content">
+    <div class="bd-book-modal-columns">
+      <div class="bd-book-modal-column bd-is-cover">
+        <div class="bd-book-cover">
+  <a href="https://bleedingedgepress.com/creating-interfaces-bulma/" target="_blank">
+    <img src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/book-cover.png" srcset="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/book-cover.png 1x, Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/book-cover2x.png 2x, Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/book-cover3x.png 3x" alt="The official Bulma book cover" width="300" height="380">
+
+  </a>
+</div>
+      </div>
+      <div class="bd-book-modal-column bd-is-content">
+        <div class="bd-book-content">
+  <header class="block bd-book-header">
+    <strong class="tag is-success">New!</strong>
+    <h3 class="title">The official Bulma book! 😲</h3>
+    <p class="subtitle is-6 has-text-grey">by Jeremy Thomas, creator of Bulma, Oleksii Potiekhin,<br>Mikko Lauhakari, Aslam Shah and David Berning</p>
+  </header>
+
+  
+    <div class="bd-book-inline-cover">
+      <div class="bd-book-cover">
+  <a href="https://bleedingedgepress.com/creating-interfaces-bulma/" target="_blank">
+    <img src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/book-cover.png" srcset="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/book-cover.png 1x, Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/book-cover2x.png 2x, Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/book-cover3x.png 3x" alt="The official Bulma book cover" width="300" height="380">
+
+  </a>
+</div>
+    </div>
+  
+
+  <div class="block bd-book-description is-size-5">
+    <p>A <strong>step-by-step guide</strong> that teaches you how to build a <strong>web interface from scratch</strong> using Bulma.</p>
+  </div>
+  <div class="bd-book-tags">
+    <div class="field is-grouped is-grouped-multiline">
+      <div class="control">
+        <span class="tag is-white has-text-grey is-paddingless">Formats available:</span>
+      </div>
+      <div class="control">
+        <div class="tags has-addons">
+          <strong class="tag has-text-danger">PDF</strong>
+          <strong class="tag has-text-info">Epub</strong>
+          <strong class="tag has-text-success">Mobi</strong>
+        </div>
+      </div>
+      <div class="control">
+        <span class="tag is-white has-text-grey is-paddingless">or</span>
+      </div>
+      <div class="control">
+        <div class="tags has-addons">
+          <strong class="tag has-text-orange">Kindle</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="block bd-book-buttons">
+    <div class="buttons">
+      <a class="button bd-is-bleeding is-large" href="https://bleedingedgepress.com/creating-interfaces-bulma/" target="_blank" rel="nofollow">
+        <span>
+          <em>PDF + Epub + Mobi</em>
+          <strong>Buy</strong> from <img src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/bleedingedge-type.png">
+        </span>
+      </a>
+      <a class="button bd-is-amazon is-large" href="https://www.amazon.com/Creating-Interfaces-Bulma-Jeremy-Thomas-ebook/dp/B079M1BJG4/" target="_blank" rel="nofollow">
+        <span>
+          <em>Kindle version</em>
+          <strong>Buy</strong> from <img src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/amazon-logo.png">
+        </span>
+      </a>
+    </div>
+    <div class="bd-book-sample">
+      Or <a href="http://www.bleedingedgepress.com/book_excerpts/01E9D1/creating_interfaces_with_bulma_sample.pdf" target="_blank" rel="nofollow">
+        download a free sample
+      </a>!
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+  <button class="bd-book-modal-close modal-close is-large" aria-label="close"></button>
+</div>
+
+
+<script src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/clipboard-1.js"></script>
+<script src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/js.js"></script>
+<script src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/main.js"></script>
+
+
+
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
+
+<script async="" defer="defer" type="text/javascript">(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.async = true;
+  js.defer = true;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=310296819307942";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script async="" defer="defer" id="twitter-wjs" src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/widgets.js"></script>
+
+<script async="" defer="defer" type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82634666-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+  
+
+<iframe scrolling="no" allowtransparency="true" src="Column%20sizes%20|%20Bulma%20Free,%20open%20source,%20and%20modern%20CSS%20framework%20based%20on%20Flexbox_files/widget_iframe.html" title="Twitter settings iframe" style="display: none;" frameborder="0"></iframe><iframe id="rufous-sandbox" scrolling="no" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: medium none;" title="Twitter analytics iframe" frameborder="0"></iframe></body></html>
